@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tomáš Strašík | Event Produkce & Hudební Dramaturgie</title>
+    <style>
+        :root {
+            --bg-color: #fcfcfc;
+            --text-color: #222;
+            --accent-color: #000;
+            --card-bg: #fff;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: var(--accent-color);
+            color: #fff;
+            padding: 6rem 2rem;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            margin-bottom: 0.5rem;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            color: #ccc;
+            font-weight: 300;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 4rem 2rem;
+        }
+
+        .section-title {
+            font-size: 2rem;
+            margin-bottom: 2rem;
+            border-bottom: 2px solid var(--accent-color);
+            display: inline-block;
+            padding-bottom: 0.5rem;
+        }
+
+        .about-text {
+            font-size: 1.1rem;
+            margin-bottom: 3rem;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-bottom: 4rem;
+        }
+
+        .card {
+            background: var(--card-bg);
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            transition: transform 0.2s ease;
+            border: 1px solid #eaeaea;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card h3 {
+            font-size: 1.3rem;
+            margin-bottom: 1rem;
+        }
+
+        .reference-list {
+            list-style: none;
+        }
+
+        .reference-list li {
+            padding: 1rem 0;
+            border-bottom: 1px solid #eaeaea;
+        }
+
+        .reference-list li:last-child {
+            border-bottom: none;
+        }
+
+        .contact-section {
+            background: #f1f1f1;
+            padding: 3rem;
+            border-radius: 12px;
+            text-align: center;
+        }
+
+        .btn {
+            display: inline-block;
+            background: var(--accent-color);
+            color: #fff;
+            padding: 1rem 2rem;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            margin-top: 1.5rem;
+            transition: background 0.2s;
+        }
+
+        .btn:hover {
+            background: #333;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            font-size: 0.9rem;
+            color: #666;
+            border-top: 1px solid #eaeaea;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Tomáš Strašík</h1>
+        <p>Kompletní event management, hudební dramaturgie a DJing</p>
+    </header>
+
+    <div class="container">
+        
+        <p class="about-text">
+            Specializuji se na organizaci a produkci kulturních a studentských akcí s důrazem na detail a hladký průběh. Pomohu s realizací od prvotního nápadu až po samotný event na místě. Ať už jde o komunitní projekty, festivaly nebo party na klíč.
+        </p>
+
+        <h2 class="section-title">Co nabízím</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>Event Management & Produkce</h3>
+                <p>Mám za sebou vedení studentských iniciativ a participativních projektů. Zajistím komplexní produkci, logistiku a komunikaci se všemi dodavateli, aby tvůj event proběhl bez stresu.</p>
+            </div>
+            
+            <div class="card">
+                <h3>Hudební dramaturgie</h3>
+                <p>Pomůžu sestavit ideální line-up pro tvoji akci. Od vyhledávání talentů, přes booking interpretů až po sestavení harmonogramu a řešení technického rideru na stage.</p>
+            </div>
+
+            <div class="card">
+                <h3>DJing</h3>
+                <p>Nabízím hudební doprovod přímo na míru. Hraju na kontroler Pioneer DDJ-FLX4 a můj setlist se vždy přizpůsobí atmosféře – ať už jde o podkres na akci nebo energickou večerní party.</p>
+            </div>
+        </div>
+
+        <h2 class="section-title">Vybrané projekty</h2>
+        <ul class="reference-list">
+            <li><strong>Náchodská Prima sezóna</strong> – Zajištění kompletní hudební dramaturgie a bookingu umělců pro festival.</li>
+            <li><strong>Díky, že můžem</strong> – Koordinace a pořádání workshopů v rámci participace a občanské společnosti.</li>
+            <li><strong>Studentská samospráva</strong> – Vedení týmu a organizace akcí v prostředí gymnázia.</li>
+        </ul>
+
+        <div class="contact-section" style="margin-top: 4rem;">
+            <h2>Pojďme se bavit o tvém eventu</h2>
+            <p style="margin-top: 1rem;">Působím primárně v okolí Zábrodí a Náchoda, ale za dobrým projektem vyrazím kamkoliv. Spolupráce na IČO je samozřejmostí.</p>
+            <a href="mailto:tom@strasik.cz" class="btn">Napsat e-mail</a>
+        </div>
+
+    </div>
+
+    <footer>
+        &copy; 2026 Tomáš Strašík. Všechna práva vyhrazena.
+    </footer>
+
+</body>
+</html>
